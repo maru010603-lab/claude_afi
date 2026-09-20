@@ -1,6 +1,6 @@
-# Claude Afi — 高単価LINE誘導型アフィリエイト運営
+# Claude Afi — 高単価アフィリエイト運営(SNS+体験談記事)
 
-参考資料「Claude × 高単価LINE誘導型で資産構築」のモデルを再現する運営。
+参考資料「Claude × 高単価LINE誘導型で資産構築」のモデルから、LINEを外して再現する運営。収益が思わしくなければLINE導入を再検討する。
 
 ## 体制
 - 方針責任者: taito — 方針・最終承認・アカウント開設/ASP申請・実体験の提供
@@ -11,7 +11,7 @@
 
 ## ドキュメント
 - [docs/strategy.md](docs/strategy.md) — 運用方針(参考資料の再現)
-- [docs/prompts.md](docs/prompts.md) — 3プロンプト+X投稿
+- [docs/prompts.md](docs/prompts.md) — プロンプト①②+SNS投稿(③LINEは保留)
 - [docs/compliance.md](docs/compliance.md) — 差分一覧・カテゴリ扱い・公開ゲート
 - [docs/workflow.md](docs/workflow.md) — 曜日別ルーティンと運用フロー
 - [docs/org_chart.md](docs/org_chart.md) — 組織図
@@ -19,4 +19,4 @@
 - [decisions.md](decisions.md) — 判断待ち・トラブル・設定報告
 
 ## ディレクトリ
-`content/articles` 記事下書き / `content/x` X投稿 / `content/line` LINEステップ / `research` 案件リサーチ / `reports` KPI・週次レポート
+`content/articles` 記事下書き / `content/sns` X・Threads投稿 / `research` 案件リサーチ / `reports` KPI・週次レポート
