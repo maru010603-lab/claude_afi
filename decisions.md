@@ -128,3 +128,8 @@
 - 実行冒頭、今回もHEAD detached状態で開始(origin/mainと内容一致・データ消失無し)。`git fetch origin main` → `git checkout -B main origin/main` でHEADをmainに付け替えてから作業
 - 月曜タスク: `reports/kpi.csv` を確認。ヘッダーのみでデータ行なし。前回の依頼(2026-09-20)から21日経過し14日を超えたため、再依頼する
 - [ ] 依頼: `reports/kpi.csv` への数値入力をお願いします(line_friends/day7_retention/cv_by_offer/approval_by_offer/revenue_jpy等)。まだ記事・投稿を公開前のため実績値が無ければ空欄のままで構いません
+
+## 2026-10-12 実行報告
+- 実行冒頭、今回もHEAD detached状態で開始(origin/mainと内容一致・データ消失無し)。`git fetch origin main` → `git checkout main` → `git merge --ff-only origin/main` でHEADをmainに付け替えてから作業
+- 火曜タスク(体験談記事・プロンプト②)は、確定済み案件がキャリナビ転職のみで既に記事化済みのため新規記事化対象が無く、2026-09-28・10-05と同様に木曜の案件リサーチ(プロンプト①)を代替実施 → [research/2026-10-12_cases.md](research/2026-10-12_cases.md)
+- レバテックキャリア・Geekly・マイナビエージェント・DODA/パソナキャリア/JACリクルートメント・paiza転職/転職ドラフト/Green等を再検索したが新規の単価・承認率情報は無し。WebFetchは今回も全ドメインでブロック(www.a8.netでENOTFOUND、2026-09-24から7回連続)。新規の判断事項は特になし(既出のASP管理画面確認依頼を継続)
