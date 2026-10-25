@@ -175,3 +175,7 @@
 - 実行冒頭、今回もHEAD detached状態で開始(origin/mainと内容一致・データ消失無し)。`git checkout -B main origin/main`でHEADをmainに付け替えて解消(既出の事象、実害は継続して無し)
 - 金曜タスク: 週次レポートを作成 → [reports/2026-10-23_weekly.md](reports/2026-10-23_weekly.md)(今週の成果物・KPI状況・decisions.md未対応事項をまとめ)
 - KPIは `reports/kpi.csv` が依然データ行なしのため「実績未発生」と明記(前回依頼10-11から14日以内のため今週は再依頼せず、次回月曜10-25時点で14日超過のため未入力なら再依頼する)。新規の判断事項は特になし
+
+## 2026-10-26 実行報告
+- 月曜タスク: `reports/kpi.csv` を確認。ヘッダーのみでデータ行なし。前回の依頼(2026-10-11)から15日経過し14日を超えたため、再依頼する
+- [ ] 依頼: `reports/kpi.csv` への数値入力をお願いします(line_friends/day7_retention/cv_by_offer/approval_by_offer/revenue_jpy等)。まだ記事・投稿を公開前のため実績値が無ければ空欄のままで構いません
